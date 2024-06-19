@@ -1,7 +1,7 @@
 function firstWord(s) {
   // your code here
-	if (!str) {
-      return str;
+	if (!s) {
+      return s;
    }
 	let str=s.split(/\s+/);
 
