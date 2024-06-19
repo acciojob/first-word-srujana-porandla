@@ -3,7 +3,7 @@ function firstWord(s) {
 	if (!s) {
       return s;
    }
-	let str=s.split(/\s+/);
+	let str=s.trim().split(/\s+/);
 
 	return str[0];
 	
